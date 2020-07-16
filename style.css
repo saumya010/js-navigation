@@ -176,3 +176,14 @@ body.menu-active .footer {
 	padding: 15px 0;
 	text-align: center;
 }
+
+/* Media queries */
+@media only screen and (max-width: 767px) {
+	.main-nav:before,
+	.main-nav:after {
+		display: none;
+	}
+	.main-nav ul {
+		width: 100%;
+	}
+}
