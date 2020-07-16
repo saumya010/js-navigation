@@ -80,7 +80,7 @@ p {
 .header .site-navigation {
 	cursor: pointer;
 	justify-self: end;
-	z-index: 11;
+	z-index: 1111;
 }
 .header .site-navigation span {
 	background-color: #333;
@@ -178,12 +178,13 @@ body.menu-active .footer {
 }
 
 /* Media queries */
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 600px) {
 	.main-nav:before,
 	.main-nav:after {
 		display: none;
 	}
 	.main-nav ul {
+		left: 0;
 		width: 100%;
 	}
 }
